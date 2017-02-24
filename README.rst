@@ -1,3 +1,14 @@
+This is a fork of Pyton GitHub Webhooks
+
+The fork was created just to stub in 'python' in the Popen command for running on windows.  There is probably a better way.
+
+Also if you can get this running on IIS please let me know as I've been unable to.  Instead you can run this as a scheduled task
+and setup a url rewrite rule on IIS to point to 127.0.0.1:5000.
+
+Because of this configuration you can not use the github_ipds_only flag.  It must be set to false so besure to use enforce_secret.
+
+Otherwise the documentation below is still accurate.
+
 ======================
 Python GitHub Webhooks
 ======================
